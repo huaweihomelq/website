@@ -1,0 +1,23 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8080
+
+#mybatis.config-location=classpath:mybatis/mybatis-config.xml
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/website?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
+#    data-username: guohuawei
+#    data-password: 123456.aa
+#    tomcat:
+#      max-active: 20
+#      max-idle: 8
+#      min-idle: 8
+#      initial-size: 10
+
